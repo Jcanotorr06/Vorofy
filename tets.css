@@ -1,0 +1,25 @@
+.page    { display: none; }
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f7f9;
+  background-image: url("https://i.pinimg.com/originals/70/48/6f/70486fce1414047536eed4151e84b48f.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
